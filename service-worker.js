@@ -1,4 +1,4 @@
-const CACHE_NAME = "arven-pt-v4";
+const CACHE_NAME = "arven-pt-v4.1";
 const APP_FILES = ["./", "./index.html", "./manifest.webmanifest"];
 
 self.addEventListener("install", event => {
@@ -29,4 +29,3 @@ self.addEventListener("fetch", event => {
       .catch(() => caches.match(event.request).then(response => response || caches.match("./index.html")))
   );
 });
-
