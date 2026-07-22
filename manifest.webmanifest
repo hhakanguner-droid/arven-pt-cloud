@@ -1,0 +1,12 @@
+{
+  "name": "Arven PT",
+  "short_name": "Arven PT",
+  "description": "Telefon ve bilgisayar arasında senkronize antrenman takip uygulaması",
+  "lang": "tr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#edf2f7",
+  "theme_color": "#0b1220"
+}
+
